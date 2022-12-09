@@ -1,0 +1,171 @@
+body {
+
+  font-family:'Coronetscript', 'Arial Bold', Arial, sans-serif;
+  text-align: center;
+  margin: 0px;
+  
+}
+
+.background {
+  height: 130vh;
+  background: linear-gradient(90deg, #f8878d 0%, #f7979b 35%, #f8878d 100%);
+  padding-top: 160px;
+  margin: 0px;
+  background-size: cover;
+}
+
+h1 {
+  font-family:'Bahnschrift SemiBold', 'Arial Bold', Arial, sans-serif;
+  color: #c00113;
+  text-shadow: 4px 4px 4px #76010b;
+  margin: 0px;
+  font-size: 65px;
+}
+
+.aboutMe {
+  display: inline-block;
+  
+}
+
+.content {
+  z-index: -1;
+}
+
+#portrait {
+  position: absolute;
+  left: 20px;
+  width: 756px;
+  height: 1008;
+}
+
+h2 {
+  margin: 0px 0px 0px 20px;
+}
+
+.headerElement {
+  margin: 0px 0px 6px 28px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  background-color: #016c63;
+  border-radius: 8px 8px 8px 8px;
+  height: 40px;
+  width: 100px;
+  padding: 20px 5px 0px 5px;
+  text-align: center;
+  color: #000000fd;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+
+}
+
+.textBox {
+  margin: 20px;
+  display: inline-block;
+  position: absolute;
+  background-color: #dbfffc;
+  border-radius: 3px 3px 3px 3px;
+  height: 800px;
+  width: 500px;
+  padding: 12px 15px 0px 12px;
+  text-align: center;
+  color: #000000fd;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.headerElement:hover {
+  background-color: #c00113;
+  color: #00ffbf;
+  
+}
+
+.title {
+  display: inline-block;
+  margin: 0% 0% 0% 0%;
+}
+
+.headerContainer {
+  order: 2;
+  filter: drop-shadow(6px 6px 4px #016c63);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  z-index: 1;
+}
+
+.header {
+  width: 99%;
+  margin: 0px;
+  margin-right: 2%;
+  background-position: center top;
+  background-size: cover;
+  border-radius: 0px 0px 8px 0px;
+}
+
+.largeBar {
+  height: fit-content;
+  padding: 5px;
+  background-color: #00ffea;
+  display: inline-block;
+  text-align: left;
+}
+
+.underline {
+  width: 98%;
+  height: 10px;
+  background-color: #00bdae;
+  border-radius: 0px 0px 4px 4px;
+
+}
+
+.para {
+  text-align: left;
+  text-indent: 25px;
+}
+
+.contactInfo {
+  text-align: left;
+  margin-top: 0px;
+}
+
+.workTextBox {
+  margin: 0px 0px 100px 100px;
+  display: inline-block;
+  background-color: #dbfffc;
+  border-radius: 3px 3px 3px 3px;
+  height: 300px;
+  width: 600px;
+  padding: 12px 15px 0px 12px;
+  color: #000000fd;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  position: relative;
+  left: 40px;
+}
+
+.workImg {
+  position: absolute;
+  left: 320px;
+}
+
+.gameText {
+  margin: 10px;
+  background-color: #dbfffc;
+  border-radius: 3px 3px 3px 3px;
+  height: 100px;
+  width: 200px;
+  padding: 5px;
+  color: #000000fd;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  position: absolute;
+  left: 100px;
+  top: 300px;
+}
